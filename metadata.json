@@ -1,0 +1,6 @@
+{
+  "name": "KIPO - Plateforme Éducative Intelligente",
+  "description": "Plateforme éducative internationale propulsée par l'intelligence artificielle pour élèves, étudiants et enseignants avec chat pédagogique, quiz interactifs, flashcards, défis gamifiés et analyse de documents.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

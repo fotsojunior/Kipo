@@ -1,0 +1,111 @@
+[
+  {
+    "id": "group-comm-1",
+    "name": "Terminale & Bac SVT - Réussite",
+    "description": "Espace d'entraide public pour réviser le programme de SVT, la génétique et la géologie.",
+    "subject": "Sciences de la Vie et de la Terre",
+    "privacy": "public",
+    "inviteCode": "BAC-SVT-2026",
+    "createdBy": "prof_clara",
+    "createdByName": "Mme Clara (Professeur)",
+    "createdAt": "2026-10-31T21:17:59.729Z",
+    "permissions": {
+      "whoCanShareDocs": "all",
+      "whoCanCreateQuizzes": "all",
+      "defaultDocAccess": "interactive"
+    },
+    "members": [
+      {
+        "id": "prof_clara",
+        "name": "Mme Clara",
+        "avatar": "💼",
+        "role": "admin",
+        "profile": "professeur",
+        "joinedAt": "2026-10-31T21:17:59.730Z",
+        "xpContributed": 240
+      },
+      {
+        "id": "user_alex",
+        "name": "Alexandre M.",
+        "avatar": "🎒",
+        "role": "member",
+        "profile": "eleve",
+        "joinedAt": "2026-11-01T21:17:59.730Z",
+        "xpContributed": 95
+      }
+    ],
+    "pendingRequests": [],
+    "sharedDocuments": [
+      {
+        "id": "doc-svt-1",
+        "docId": "doc-svt-1",
+        "title": "Fiche Synthèse : Métabolisme Cellulaire & ATP",
+        "fileName": "synthese_metabolisme.pdf",
+        "fileType": "pdf",
+        "sharedBy": "prof_clara",
+        "sharedByName": "Mme Clara",
+        "sharedAt": "2026-11-01T21:17:59.730Z",
+        "permission": "interactive",
+        "summary": "Résumé des voies respiratoires et fermentaires chez les eucaryotes.",
+        "keyConcepts": [
+          "Glycolyse",
+          "Cycle de Krebs",
+          "Chaîne respiratoire",
+          "Rendement énergétique"
+        ],
+        "questionCount": 20
+      }
+    ],
+    "messages": [
+      {
+        "id": "msg-svt-1",
+        "senderId": "prof_clara",
+        "senderName": "Mme Clara",
+        "senderRole": "admin",
+        "content": "Bienvenue à tous ! N'hésitez pas à poser vos questions sur les chapitres difficiles et à partager vos cours scannés ou PDF.",
+        "timestamp": "2026-11-01T21:17:59.730Z"
+      }
+    ],
+    "groupQuizzes": []
+  },
+  {
+    "id": "group-comm-2",
+    "name": "Groupe d'Élite : Mathématiques & Physique Sup",
+    "description": "Groupe privé de préparation aux concours scientifiques et devoirs surveillés.",
+    "subject": "Maths & Physique Approfondies",
+    "privacy": "private",
+    "inviteCode": "PREPA-MP-01",
+    "createdBy": "thomas_sup",
+    "createdByName": "Thomas (Étudiant)",
+    "createdAt": "2026-10-30T21:17:59.730Z",
+    "permissions": {
+      "whoCanShareDocs": "all",
+      "whoCanCreateQuizzes": "all",
+      "defaultDocAccess": "interactive"
+    },
+    "members": [
+      {
+        "id": "thomas_sup",
+        "name": "Thomas",
+        "avatar": "🎓",
+        "role": "admin",
+        "profile": "etudiant",
+        "joinedAt": "2026-10-30T21:17:59.730Z",
+        "xpContributed": 410
+      }
+    ],
+    "pendingRequests": [],
+    "sharedDocuments": [],
+    "messages": [
+      {
+        "id": "msg-math-1",
+        "senderId": "thomas_sup",
+        "senderName": "Thomas",
+        "senderRole": "admin",
+        "content": "Espace de travail réservé. Envoyez votre demande pour rejoindre et partager vos DM et exercices résolus.",
+        "timestamp": "2026-10-31T21:17:59.730Z"
+      }
+    ],
+    "groupQuizzes": []
+  }
+]

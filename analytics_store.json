@@ -1,0 +1,124 @@
+{
+  "visitors": {
+    "anon_eleve_paris": {
+      "visitorId": "anon_eleve_paris",
+      "email": null,
+      "firstSeen": "2026-11-02T18:41:07.500Z",
+      "lastSeen": "2026-11-02T19:11:07.500Z",
+      "role": "eleve",
+      "pagesVisited": [
+        "Sentier 100 Questions",
+        "Tuteur IA",
+        "Quiz & Tests"
+      ],
+      "questionCount": 2,
+      "deviceInfo": "Mobile (Android/iOS)"
+    },
+    "sarah_lycee": {
+      "visitorId": "vis_sarah_01",
+      "email": "sarah.lycee@gmail.com",
+      "firstSeen": "2026-11-02T19:11:07.500Z",
+      "lastSeen": "2026-11-02T20:41:07.500Z",
+      "role": "etudiant",
+      "pagesVisited": [
+        "Tuteur IA",
+        "Atelier Documents",
+        "Cartes Mémoire"
+      ],
+      "questionCount": 3,
+      "deviceInfo": "Ordinateur (Desktop)"
+    },
+    "test_mobile_vis": {
+      "visitorId": "test_mobile_vis",
+      "email": null,
+      "firstSeen": "2026-11-02T20:41:15.710Z",
+      "lastSeen": "2026-11-02T20:41:15.710Z",
+      "role": "visiteur",
+      "pagesVisited": [
+        "Tuteur IA / Discussion"
+      ],
+      "questionCount": 0,
+      "deviceInfo": "Mobile (Android)"
+    }
+  },
+  "events": [
+    {
+      "id": "evt-1793652075711-d2yy5",
+      "visitorId": "test_mobile_vis",
+      "userEmail": null,
+      "eventType": "page_view",
+      "timestamp": "2026-11-02T20:41:15.710Z",
+      "formattedDate": {
+        "heure": "20:41:15",
+        "jour": "lun. 2",
+        "mois": "novembre",
+        "annee": "2026",
+        "fullFr": "02/11/2026 à 20:41:15"
+      },
+      "data": {
+        "page": "Tuteur IA / Discussion",
+        "deviceInfo": "Mobile (Android)"
+      }
+    },
+    {
+      "id": "evt-init-1",
+      "visitorId": "anon_eleve_paris",
+      "userEmail": null,
+      "eventType": "question_asked",
+      "timestamp": "2026-11-02T18:41:07.500Z",
+      "formattedDate": {
+        "heure": "18:41:07",
+        "jour": "lun. 2",
+        "mois": "novembre",
+        "annee": "2026",
+        "fullFr": "02/11/2026 à 18:41:07"
+      },
+      "data": {
+        "question": "Comment fonctionne la photosynthèse chez les plantes C3 ?",
+        "subject": "SVT / Biologie",
+        "answerPreview": "La photosynthèse transforme le dioxyde de carbone et l’eau en glucose grâce à l’énergie lumineuse captée par la chlorophylle...",
+        "role": "eleve",
+        "deviceInfo": "Mobile (Android/iOS)"
+      }
+    },
+    {
+      "id": "evt-init-2",
+      "visitorId": "anon_eleve_paris",
+      "userEmail": null,
+      "eventType": "page_view",
+      "timestamp": "2026-11-02T18:41:07.500Z",
+      "formattedDate": {
+        "heure": "18:41:07",
+        "jour": "lun. 2",
+        "mois": "novembre",
+        "annee": "2026",
+        "fullFr": "02/11/2026 à 18:41:07"
+      },
+      "data": {
+        "page": "Sentier 100 Questions",
+        "deviceInfo": "Mobile (Android/iOS)"
+      }
+    },
+    {
+      "id": "evt-init-3",
+      "visitorId": "vis_sarah_01",
+      "userEmail": "sarah.lycee@gmail.com",
+      "eventType": "question_asked",
+      "timestamp": "2026-11-02T19:11:07.500Z",
+      "formattedDate": {
+        "heure": "19:11:07",
+        "jour": "lun. 2",
+        "mois": "novembre",
+        "annee": "2026",
+        "fullFr": "02/11/2026 à 19:11:07"
+      },
+      "data": {
+        "question": "Quelle est la différence entre mitose et méiose en génétique ?",
+        "subject": "Sciences de la Vie",
+        "answerPreview": "La mitose produit deux cellules filles identiques diploïdes (2n), tandis que la méiose génère 4 gamètes haploïdes (n) génétiquement uniques...",
+        "role": "etudiant",
+        "deviceInfo": "Ordinateur (Desktop)"
+      }
+    }
+  ]
+}

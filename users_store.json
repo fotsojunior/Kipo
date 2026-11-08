@@ -1,0 +1,205 @@
+{
+  "users": [
+    {
+      "id": "a0f82164-325b-4c07-885e-9f4a13d7120a",
+      "aud": "authenticated",
+      "role": "authenticated",
+      "email": "fotsojunior756@gmail.com",
+      "email_confirmed_at": "2026-01-01T08:00:00.000Z",
+      "phone": null,
+      "confirmed_at": "2026-01-01T08:00:00.000Z",
+      "last_sign_in_at": "2026-11-06T17:54:28.244Z",
+      "app_metadata": {
+        "provider": "email",
+        "providers": [
+          "email"
+        ]
+      },
+      "user_metadata": {
+        "full_name": "Fotso Junior",
+        "role": "admin",
+        "avatar_url": "https://api.dicebear.com/7.x/initials/svg?seed=Fotso%20Junior"
+      },
+      "identities": [
+        {
+          "id": "fotsojunior756@gmail.com",
+          "user_id": "a0f82164-325b-4c07-885e-9f4a13d7120a",
+          "identity_data": {
+            "email": "fotsojunior756@gmail.com",
+            "sub": "a0f82164-325b-4c07-885e-9f4a13d7120a"
+          },
+          "provider": "email",
+          "last_sign_in_at": "2026-11-06T17:54:28.245Z",
+          "created_at": "2026-01-01T08:00:00.000Z",
+          "updated_at": "2026-11-06T17:54:28.245Z"
+        }
+      ],
+      "created_at": "2026-01-01T08:00:00.000Z",
+      "updated_at": "2026-11-06T17:54:28.245Z",
+      "is_anonymous": false,
+      "banned_until": null,
+      "status": "active",
+      "is_admin": true,
+      "activity_stats": {
+        "pages_visited": 36,
+        "questions_asked": 28,
+        "podcasts_created": 8,
+        "last_page": "Tableau de bord Administrateur",
+        "device_info": "Mobile & Bureau (Session Active)"
+      }
+    },
+    {
+      "id": "7b226e41-863a-4933-bb94-1ea837c78491",
+      "aud": "authenticated",
+      "role": "authenticated",
+      "email": "sarah.lycee@gmail.com",
+      "email_confirmed_at": "2026-11-02T19:11:00.000Z",
+      "phone": null,
+      "confirmed_at": "2026-11-02T19:11:00.000Z",
+      "last_sign_in_at": "2026-11-06T15:54:28.245Z",
+      "app_metadata": {
+        "provider": "email",
+        "providers": [
+          "email"
+        ]
+      },
+      "user_metadata": {
+        "full_name": "Sarah M.",
+        "role": "eleve",
+        "avatar_url": "https://api.dicebear.com/7.x/initials/svg?seed=Sarah%20M"
+      },
+      "identities": [
+        {
+          "id": "sarah.lycee@gmail.com",
+          "user_id": "7b226e41-863a-4933-bb94-1ea837c78491",
+          "identity_data": {
+            "email": "sarah.lycee@gmail.com",
+            "sub": "7b226e41-863a-4933-bb94-1ea837c78491"
+          },
+          "provider": "email",
+          "last_sign_in_at": "2026-11-06T15:54:28.245Z",
+          "created_at": "2026-11-02T19:11:00.000Z",
+          "updated_at": "2026-11-06T17:54:28.245Z"
+        }
+      ],
+      "created_at": "2026-11-02T19:11:00.000Z",
+      "updated_at": "2026-11-06T17:54:28.245Z",
+      "is_anonymous": false,
+      "banned_until": null,
+      "status": "active",
+      "is_admin": false,
+      "activity_stats": {
+        "pages_visited": 18,
+        "questions_asked": 11,
+        "podcasts_created": 3,
+        "last_page": "Sentier KIPO",
+        "device_info": "Android Mobile (Chrome)"
+      }
+    },
+    {
+      "id": "c5104868-b391-450f-90e8-0b2a59e9f902",
+      "aud": "authenticated",
+      "role": "authenticated",
+      "email": "alex.etudiant@gmail.com",
+      "email_confirmed_at": "2026-11-03T10:20:00.000Z",
+      "phone": null,
+      "confirmed_at": "2026-11-03T10:20:00.000Z",
+      "last_sign_in_at": "2026-11-06T11:54:28.245Z",
+      "app_metadata": {
+        "provider": "email",
+        "providers": [
+          "email"
+        ]
+      },
+      "user_metadata": {
+        "full_name": "Alexandre Dupont",
+        "role": "etudiant",
+        "avatar_url": "https://api.dicebear.com/7.x/initials/svg?seed=Alexandre%20Dupont"
+      },
+      "identities": [],
+      "created_at": "2026-11-03T10:20:00.000Z",
+      "updated_at": "2026-11-06T17:54:28.245Z",
+      "is_anonymous": false,
+      "banned_until": null,
+      "status": "active",
+      "is_admin": false,
+      "activity_stats": {
+        "pages_visited": 29,
+        "questions_asked": 16,
+        "podcasts_created": 5,
+        "last_page": "Podcasts Audio & Flashcards",
+        "device_info": "Windows PC (Chrome)"
+      }
+    },
+    {
+      "id": "df394812-748a-449e-b9f1-a1e948c20849",
+      "aud": "authenticated",
+      "role": "authenticated",
+      "email": "emma.prepa@gmail.com",
+      "email_confirmed_at": "2026-11-04T14:15:00.000Z",
+      "phone": null,
+      "confirmed_at": "2026-11-04T14:15:00.000Z",
+      "last_sign_in_at": "2026-11-05T23:54:28.245Z",
+      "app_metadata": {
+        "provider": "email",
+        "providers": [
+          "email"
+        ]
+      },
+      "user_metadata": {
+        "full_name": "Emma Thomas",
+        "role": "etudiant",
+        "avatar_url": "https://api.dicebear.com/7.x/initials/svg?seed=Emma%20Thomas"
+      },
+      "identities": [],
+      "created_at": "2026-11-04T14:15:00.000Z",
+      "updated_at": "2026-11-06T17:54:28.245Z",
+      "is_anonymous": false,
+      "banned_until": null,
+      "status": "active",
+      "is_admin": false,
+      "activity_stats": {
+        "pages_visited": 42,
+        "questions_asked": 23,
+        "podcasts_created": 7,
+        "last_page": "Atelier Studio Documents",
+        "device_info": "Apple MacBook (Safari)"
+      }
+    },
+    {
+      "id": "992a831e-412f-410a-8bf8-d3e918471b02",
+      "aud": "authenticated",
+      "role": "authenticated",
+      "email": "marc.prof@ac-paris.fr",
+      "email_confirmed_at": "2026-11-05T09:00:00.000Z",
+      "phone": null,
+      "confirmed_at": "2026-11-05T09:00:00.000Z",
+      "last_sign_in_at": "2026-11-05T13:54:28.245Z",
+      "app_metadata": {
+        "provider": "email",
+        "providers": [
+          "email"
+        ]
+      },
+      "user_metadata": {
+        "full_name": "Prof. Marc V.",
+        "role": "professeur",
+        "avatar_url": "https://api.dicebear.com/7.x/initials/svg?seed=Marc%20V"
+      },
+      "identities": [],
+      "created_at": "2026-11-05T09:00:00.000Z",
+      "updated_at": "2026-11-06T17:54:28.245Z",
+      "is_anonymous": false,
+      "banned_until": null,
+      "status": "active",
+      "is_admin": false,
+      "activity_stats": {
+        "pages_visited": 19,
+        "questions_asked": 9,
+        "podcasts_created": 4,
+        "last_page": "Espaces Collaboratifs",
+        "device_info": "Bureau Linux (Firefox)"
+      }
+    }
+  ]
+}

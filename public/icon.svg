@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="50%" stop-color="#0d9488" />
+      <stop offset="100%" stop-color="#4f46e5" />
+    </linearGradient>
+    <linearGradient id="bellyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7" />
+      <stop offset="100%" stop-color="#fde68a" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-opacity="0.25" flood-color="#064e3b" />
+    </filter>
+  </defs>
+
+  <!-- Background rounded squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+
+  <!-- Outer Glow / Halo -->
+  <circle cx="256" cy="256" r="190" fill="#ffffff" opacity="0.1" />
+
+  <!-- Owl Body -->
+  <g filter="url(#shadow)">
+    <!-- Main Body -->
+    <ellipse cx="256" cy="275" rx="140" ry="155" fill="#047857" />
+    <!-- Feather Layer -->
+    <ellipse cx="256" cy="278" rx="130" ry="145" fill="#10b981" />
+
+    <!-- Belly -->
+    <ellipse cx="256" cy="320" rx="90" ry="95" fill="url(#bellyGrad)" />
+    <!-- Belly chevron feathers -->
+    <path d="M 235 285 L 256 300 L 277 285" fill="none" stroke="#d97706" stroke-width="4" stroke-linecap="round" />
+    <path d="M 225 315 L 256 333 L 287 315" fill="none" stroke="#d97706" stroke-width="4" stroke-linecap="round" />
+    <path d="M 235 345 L 256 360 L 277 345" fill="none" stroke="#d97706" stroke-width="4" stroke-linecap="round" />
+
+    <!-- Owl Face Mask -->
+    <!-- Left Eye Backing -->
+    <circle cx="205" cy="205" r="54" fill="#ffffff" stroke="#059669" stroke-width="6" />
+    <!-- Right Eye Backing -->
+    <circle cx="307" cy="205" r="54" fill="#ffffff" stroke="#059669" stroke-width="6" />
+
+    <!-- Pupils -->
+    <circle cx="212" cy="205" r="28" fill="#1e293b" />
+    <circle cx="300" cy="205" r="28" fill="#1e293b" />
+
+    <!-- Eye sparkles (Duolingo cute catchlights) -->
+    <circle cx="205" cy="195" r="10" fill="#ffffff" />
+    <circle cx="220" cy="215" r="4" fill="#ffffff" />
+    <circle cx="293" cy="195" r="10" fill="#ffffff" />
+    <circle cx="308" cy="215" r="4" fill="#ffffff" />
+
+    <!-- Beak -->
+    <polygon points="256,215 240,250 272,250" fill="#f59e0b" stroke="#d97706" stroke-width="3" stroke-linejoin="round" />
+
+    <!-- Owl Ear Tufts -->
+    <path d="M 150 180 L 125 105 L 195 145 Z" fill="#047857" />
+    <path d="M 362 180 L 387 105 L 317 145 Z" fill="#047857" />
+    <path d="M 155 175 L 138 120 L 188 150 Z" fill="#10b981" />
+    <path d="M 357 175 L 374 120 L 324 150 Z" fill="#10b981" />
+
+    <!-- Wings -->
+    <path d="M 125 240 C 95 280 115 370 145 385 C 150 350 140 280 145 250 Z" fill="#065f46" />
+    <path d="M 387 240 C 417 280 397 370 367 385 C 362 350 372 280 367 250 Z" fill="#065f46" />
+
+    <!-- Feet -->
+    <ellipse cx="225" cy="425" rx="20" ry="10" fill="#f59e0b" />
+    <ellipse cx="287" cy="425" rx="20" ry="10" fill="#f59e0b" />
+  </g>
+
+  <!-- Sparkle top right -->
+  <polygon points="415,80 422,98 440,105 422,112 415,130 408,112 390,105 408,98" fill="#fbbf24" />
+</svg>
